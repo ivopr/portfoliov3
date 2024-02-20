@@ -3,6 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import visualdynamicsImg from "@/assets/visualdynamics.png";
+import plasmoqsarImg from "@/assets/plasmoqsar.png";
+import plasmoiaImg from "@/assets/plasmoia.png";
 
 export const links = [
   {
@@ -61,6 +63,20 @@ export const projectsData = [
       "Web Platform made for automating GROMACS simulations.",
     tags: ["React", "Next.js", "PostgreSQL", "Tailwind", "Prisma", "Flask", "Celery", "GROMACS"],
     imageUrl: visualdynamicsImg,
+  },
+  {
+    title: "PlasmoQSAR",
+    description:
+      "A web application that calculates the pEC50 value (and EC50%) against Plasmodium Falciparum.",
+    tags: ["React", "Next.js", "Nest.js", "PostgreSQL", "Mantine", "Prisma", "Mold2", "BullMQ"],
+    imageUrl: plasmoqsarImg,
+  },
+  {
+    title: "PlasmoIA",
+    description:
+      "A web application that uses AI to identify if a cell is infected with Plasmodium Falciparum.",
+    tags: ["React", "Next.js", "PostgreSQL", "Mantine", "Prisma", "FastAPI"],
+    imageUrl: plasmoiaImg,
   },
 ] as const;
 

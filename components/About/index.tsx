@@ -25,7 +25,7 @@ export default function About() {
         were made with it and since then, here we are. I enrolled in a coding{" "}
         bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is that{" "}.
+        <span className="italic">My favorite part of programming</span> is that{" "}
         sometimes it really makes me wonder if I made the right choice. My favourite{" "}
         things to work with are{" "}
         <span className="font-medium">
